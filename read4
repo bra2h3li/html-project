@@ -1,1 +1,72 @@
 HTML & CSS
+HTML :
+HTML is the foundation behind all web pages. It’s used to add structure and form to text, images, and more.
+
+HTML Elements:
+An HTML element usually consists of a start tag and an end tag, with the content inserted in between:
+
+<tagname>Content goes here...</tagname>
+The HTML element is everything from the start tag to the end tag:
+
+<p>My first paragraph.</p>
+
+HTML elements with no content are called empty elements. Empty elements do not have 
+an end tag, such as the <br> element (which indicates a line break).
+
+Nested HTML Elements
+HTML elements can be nested (elements can contain elements).
+
+All HTML documents consist of nested HTML elements.
+
+This example contains four HTML elements:
+
+Example
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+Attributes provide additional information about HTML elements.
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about an element
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+Headings
+Headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading.
+
+It is important to use headings to show the document structure.
+
+CSS :
+is the language used to style HTML content. In this  course, we’ll learn the fundamentals of 
+both languages so that you can create visually appealing web pages.
+External styles are defined within the <link> element, inside the <head> section of an HTML page:
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
