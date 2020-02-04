@@ -1,0 +1,23 @@
+h1
+{
+    color: 0000;
+    display: block;
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+ul li {
+    display: inline-block;
+    padding: 20xp 30xp 20xp;
+    border: 1xp slategray;
+    margin: 10xp;
+
+}
+ul li a {
+    text-decoration: none;
+    color:purple;
+}
+a {text-decoration: none;}
+
+ body { color: slateblue;
+      background-color: seashell;}
